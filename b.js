@@ -24,7 +24,7 @@ function validEmail(email) {
     }
     return true;
 }
-let email = 'sujan@gmail.com'
+let email =
 console.log(email.length)
 let display = validEmail(email)
 console.log(display)

@@ -1,5 +1,5 @@
 function cashOut( money ) { 
-    if(typeof money !== 'number' || money<=0){
+    if(typeof money !== 'number' || money<0){
         return "Invalid" ;
     } 
     money=money*0.0175;
@@ -10,6 +10,6 @@ function cashOut( money ) {
     return money;
 
 } 
-let money=0;
+let money=;
 let x=cashOut(money)
 console.log(x)

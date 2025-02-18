@@ -5,15 +5,16 @@ function  electionResult( votes ) {
     else if(votes.length===0){
         return 'Draw'
     }
-   let sumMango=0;
-   let sumBanana=0;
+   let sumMango = 0;
+   let sumBanana = 0;
      for(let vote of votes){
-if(vote==='mango'){
+if(vote==="mango"){
     sumMango++;
 }
-else if(vote==='banana'){
+else if(vote==="banana"){
     sumBanana++;
 }
+     }
 if(sumMango>sumBanana){
     return 'mango'
 }
@@ -25,7 +26,6 @@ else{
 }
 
      }
-} 
-let votes= ["mango"] 
-let func=electionResult(votes)
+let fruits= ["mango", "BananA", "na vote", "na vote"] 
+let func=electionResult(fruits);
 console.log(func)

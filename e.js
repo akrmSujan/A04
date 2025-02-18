@@ -13,6 +13,6 @@ let second=Math.floor(afterSum%60)
 let watchTime={hour,minute,second}
 return watchTime;
 } 
-let watchTime=[100,3800] 
+let watchTime=[100, 3800, "90" ] 
 let func=calculateWatchTime(watchTime)
 console.log(func)

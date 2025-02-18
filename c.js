@@ -1,3 +1,4 @@
+// eta hoini bolod ,eta dis na
 function  electionResult( votes ) { 
     if(votes.length==0 ){
         return 'Draw';
